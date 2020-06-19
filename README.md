@@ -2,7 +2,7 @@
 
 # classname-converter
 
-classname-converter is a CLI tool for class to className converter for jsx.
+`classname-converter` is a CLI tool for class to className converter for jsx.
 
 ## Installation
 
@@ -19,6 +19,7 @@ $ classname-converter index.js
 ## TODO
 
 - TypeScript Support
+- Folder Support
 
 ## License
 
