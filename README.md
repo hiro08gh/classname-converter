@@ -18,7 +18,6 @@ $ classname-converter index.js
 
 ## TODO
 
-- TypeScript Support
 - Folder Support
 
 ## License
