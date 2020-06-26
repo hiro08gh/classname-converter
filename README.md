@@ -22,4 +22,4 @@ $ classname-converter index.js
 
 ## License
 
-MIT License.
+MIT License.© [hiro08gh](https://github.com/hiro08gh)
