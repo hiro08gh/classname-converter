@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
-const fs = require('fs');
-const chalk = require('chalk');
-const program = require('commander');
+import fs from 'fs';
+import chalk from 'chalk';
+import program from 'commander';
+import { message } from './constants';
+
 const { version } = require('../package.json');
-const { message } = require('./constants');
 
 program
   .version(version)
@@ -19,7 +20,8 @@ const converteFile = (path: string) => {
   if (!path) {
     return console.log(message.empty);
   }
-  fs.readFile(path, 'utf8', (err: Error, data: any) => {
+
+  fs.readFile(path, 'utf8', (err: any, data: any) => {
     if (err) {
       return console.log(chalk.red(message.error));
     }
@@ -29,7 +31,7 @@ const converteFile = (path: string) => {
 
     console.log(chalk.green(message.success));
 
-    fs.writeFile(path, result, 'utf8', (err: Error) => {
+    fs.writeFile(path, result, 'utf8', (err: any) => {
       if (err) return console.log(chalk.red(message.error));
     });
   });
