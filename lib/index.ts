@@ -21,7 +21,7 @@ const converteFile = (path: string) => {
     return console.log(message.empty);
   }
 
-  fs.readFile(path, 'utf8', (err: any, data: any) => {
+  fs.readFile(path, 'utf8', (err, data) => {
     if (err) {
       return console.log(chalk.red(message.error));
     }
@@ -31,7 +31,7 @@ const converteFile = (path: string) => {
 
     console.log(chalk.green(message.success));
 
-    fs.writeFile(path, result, 'utf8', (err: any) => {
+    fs.writeFile(path, result, 'utf8', (err) => {
       if (err) return console.log(chalk.red(message.error));
     });
   });
