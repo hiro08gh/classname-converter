@@ -2,7 +2,7 @@
 
 import fs from 'fs';
 import chalk from 'chalk';
-import program from 'commander';
+import { program } from 'commander';
 import { message } from './constants';
 
 const { version } = require('../package.json');
