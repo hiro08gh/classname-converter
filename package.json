@@ -8,7 +8,7 @@
     "classname-converter": "./dist/index.js"
   },
   "dependencies": {
-    "chalk": "^4.1.2",
+    "chalk": "^5.0.0",
     "commander": "^8.3.0",
     "fs-extra": "^10.0.0"
   },
