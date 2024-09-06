@@ -19,7 +19,7 @@
     "prettier": "2.8.8",
     "ts-node": "10.9.2",
     "ts-node-dev": "^1.1.8",
-    "typescript": "5.3.3"
+    "typescript": "5.5.4"
   },
   "scripts": {
     "start": "nodemon --watch 'lib/**/*.ts' --exec 'ts-node' lib/index.ts",
