@@ -13,7 +13,11 @@ $ npm install -g classname-converter
 This will help you when you migrate to React from another library.
 
 ```
-$ classname-converter index.js
+$ classname-converter index.tsx
+
+or 
+
+$ classname-converter ./folder
 ```
 
 before:
@@ -27,10 +31,6 @@ after
 ```javascript
 <div className="app">App</div>
 ```
-
-## TODO
-
-- Folder Support
 
 ## License
 
