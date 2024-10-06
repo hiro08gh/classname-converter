@@ -11,7 +11,7 @@
     "chalk": "^5.0.0",
     "commander": "^12.1.0",
     "fs-extra": "^10.0.0",
-    "ts-morph": "^23.0.0"
+    "ts-morph": "^24.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
